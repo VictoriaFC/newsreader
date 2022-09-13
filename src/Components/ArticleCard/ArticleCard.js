@@ -1,10 +1,13 @@
 import React from 'react'
 import './ArticleCard.css'
 
-const ArticleCard = () => {
+const ArticleCard = ({ title, author, publishedDate }) => {
 	return (
 		<div className="article-card">
-			<h2>I'm an Article Card</h2>
+			<h2>Title: {title}</h2>
+			<p>Author: {author}</p>
+			<p>Published: {publishedDate}</p>
+			<button>See All Details</button>
 		</div>
 	)
 }
