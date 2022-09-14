@@ -8,7 +8,7 @@ const FormSelect = ({ setArticles, setError }) => {
 		e.preventDefault()
 		console.log('target value:', e.target.value)
 		fetchArticlesBySection(e.target.value)
-		.then(data => setArticles(data))
+		.then(data => setArticles(data.results))
 		.catch(error => setError(error.message))
 	}
 
