@@ -9,7 +9,7 @@ const Articles = ({ articles }) => {
 			<ArticleCard 
 				key={index}
 				title={article.title}
-				author={article.byLine}
+				author={article.byline}
 				publishedDate={article.published_date}
 			/>
 		)
