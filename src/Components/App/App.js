@@ -4,6 +4,7 @@ import './App.css';
 import FormSelect from '../FormSelect/FormSelect'
 import ArticleCard from '../ArticleCard/ArticleCard';
 import Articles from '../Articles/Articles';
+import ArticleDetails from '../ArticleDetails/ArticleDetails'
 
 const App = () => {
 
@@ -12,13 +13,16 @@ const App = () => {
 
   return (
     <div className="main-container">
-			<Route>
+			<Route exact path="/">
 				<FormSelect setArticles={setArticles} setError={setError} error={error}/>
 				<Articles setArticles={setArticles} articles={articles}/>
 				<ArticleCard />
 				<ArticleCard />
 				<ArticleCard />
 			</Route>
+			{/* <Route exact path="/Article/:id">
+				<ArticleDetails />
+			</Route> */}
     </div>
   )
 }
