@@ -4,8 +4,8 @@ import './ArticleCard.css'
 const ArticleCard = ({ title, author, publishedDate }) => {
 	return (
 		<div className="article-card">
-			<h2>Title: {title}</h2>
-			<p>Author: {author}</p>
+			<h2>{title}</h2>
+			<p>{author}</p>
 			<p>Published: {publishedDate}</p>
 			<button>See All Details</button>
 		</div>
