@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Route } from 'react-router-dom'
+import { Route, Link } from 'react-router-dom'
 import './App.css';
 import FormSelect from '../FormSelect/FormSelect'
 import Articles from '../Articles/Articles';
@@ -12,6 +12,9 @@ const App = () => {
 
   return (
     <div className="main-container">
+			<Link to="/">
+				<h1>News Reader</h1>
+			</Link>
 
 			<Route exact path="/">
 				<FormSelect setArticles={setArticles} setError={setError} error={error}/>

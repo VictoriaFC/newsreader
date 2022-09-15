@@ -1,9 +1,15 @@
 .article-details-container {
 	text-align: center;
-	border: 2px solid green;
 	height: 100vh;
-	display: flex;
-	flex-direction: column;
+	margin-top: 50px;
+}
 
-	justify-content: center;
+.details-title {
+	padding: 0px;
+	margin: 0px;
+}
+
+.details-back-button:hover {
+	transform: scale(1.1);
+	cursor: pointer;
 }

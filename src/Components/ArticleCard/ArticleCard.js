@@ -5,11 +5,11 @@ import './ArticleCard.css'
 const ArticleCard = ({ title, byline, published_date, created_date }) => {
 
 	return (
-		<Link to={`/Article/${created_date}`} >
+		<Link to={`/Article/${created_date}`} style={{textDecoration: 'none'}}>
 			<div className="article-card">
-				<h2>{title}</h2>
-				<p>{byline}</p>
-				<p>Published: {published_date}</p>
+				<h2 className="home-title">{title}</h2>
+				<p className="home-byline">{byline}</p>
+				<p className="home-pub-date">Published: {published_date}</p>
 			</div>
 		</Link>
 	)

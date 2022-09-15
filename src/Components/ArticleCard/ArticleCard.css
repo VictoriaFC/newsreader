@@ -2,4 +2,18 @@
   box-sizing: border-box;
   border: 3px solid black;
   padding: 10px;
+	border-radius: 10px;
+}
+
+.home-byline,
+.home-pub-date {
+	color: black;
+}
+
+.home-title {
+	text-decoration: underline;
+}
+
+.home-title:hover {
+	transform: scale(1.01);
 }
