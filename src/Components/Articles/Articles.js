@@ -9,8 +9,9 @@ const Articles = ({ articles }) => {
 			<ArticleCard 
 				key={index}
 				title={article.title}
-				author={article.byline}
-				publishedDate={article.published_date}
+				byline={article.byline}
+				published_date={article.published_date}
+				created_date={article.created_date}
 			/>
 		)
 	})
