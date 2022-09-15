@@ -6,7 +6,6 @@ const FormSelect = ({ setArticles, setError }) => {
 
 	const getArticlesOnChange = (e) => {
 		e.preventDefault()
-		console.log('target value:', e.target.value)
 		fetchArticlesBySection(e.target.value)
 		.then(data => setArticles(data.results))
 		.catch(error => setError(error.message))
