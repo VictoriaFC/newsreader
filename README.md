@@ -19,11 +19,16 @@ https://user-images.githubusercontent.com/98445902/190550802-629818b4-8b65-4559-
 - JavaScript
 - HTML
 - CSS
-- Cypress Testing
 - Postman
 - npm
 - GitHub Issues
 - GitHub Projects
+
+## Accessibility
+![Screen Shot 2022-09-16 at 10 37 02 AM](https://user-images.githubusercontent.com/98445902/190687556-ce89f2ec-6b53-4975-8e0e-2ed653095fdc.png)
+
+## API
+[New York Times: Top Stories](https://developer.nytimes.com/docs/top-stories-product/1/overview)
 
 ## Created By:
 
