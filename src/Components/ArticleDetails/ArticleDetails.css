@@ -1,15 +1,49 @@
+.article-details-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .article-details-container {
 	text-align: center;
-	height: 100vh;
-	margin-top: 50px;
+	height: 70%;
+	width: 80%;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #F6F5F3;
+	border-radius: 10px;
 }
 
 .details-title {
 	padding: 0px;
-	margin: 0px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
+.details-byline {
+	font-style: italic;
+}
+
+.details-back-button {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	text-decoration: none;
 }
 
 .details-back-button:hover {
 	transform: scale(1.1);
 	cursor: pointer;
+}
+
+.details-image {
+	margin-top: 20px;
+	height: 300px;
+	width: 400px;
+	object-fit: cover;
+}
+
+.details-abstract {
+	width: 50%;
 }
